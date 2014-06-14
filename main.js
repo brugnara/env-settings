@@ -1,4 +1,6 @@
-var cfg = require('../config/settings.json');
+var path = require('path');
+var mainPath = path.dirname(process.mainModule.filename);
+var cfg = require(mainPath + '/config/settings.json');
 var merge = require('merge');
 
 var settings = merge(settings, cfg.default);
