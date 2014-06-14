@@ -1,7 +1,7 @@
 {
   "name": "env-settings",
   "description": "Get environment specific settings for your application",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "maintainers": [
     {
       "name": "Daniele Brugnara",
@@ -26,7 +26,6 @@
     "default"
   ],
   "devDependencies": {},
-  "readme": "Environment settings\n====================\n\nGet env based settings for your application\n\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
