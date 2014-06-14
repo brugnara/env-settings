@@ -26,7 +26,7 @@ Create a folder named **config** and put inside a **settings.json** like this:
 
 # Usage
 
-It simple as a
+It is simple as a
 
 ```
 var settings = require('env-settings');
