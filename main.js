@@ -1,5 +1,8 @@
 var path = require('path');
 var mainPath = path.dirname(process.mainModule.filename);
+if (process.env.NODE_APP_PATH) {
+  mainPath = process.env.NODE_APP_PATH;
+}
 var cfg = require(mainPath + '/config/settings.json');
 var merge = require('merge-recursive');
 

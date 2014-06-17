@@ -7,7 +7,7 @@ Get env based settings for your application
 
 Create a folder named **config** and put inside a **settings.json** like this:
 
-```
+```js
 {
   "default": {
     "log": {
@@ -29,7 +29,7 @@ Create a folder named **config** and put inside a **settings.json** like this:
 
 It is simple as a
 
-```
+```js
 // for env = development
 var settings = require('env-settings');
 
@@ -43,3 +43,14 @@ that echoes
 verbose
 hola hola pepsi cola
 ```
+
+# Testing environment
+
+When launched from mocha, the main path is different and you
+have to set a variable to avoid problems:
+
+```js
+NODE_APP_PATH=. mocha
+```
+
+Enjoy
