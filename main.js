@@ -1,6 +1,8 @@
-var path = require('path');
-var mainPath = path.dirname(process.mainModule.filename);
-var cfg = require(mainPath + '/config/settings.json');
+var currentFile = require.resolve('./');
+// extract main dir
+var arTmp = currentFile.split('/');
+tmp = arTmp.slice(0, arTmp.indexOf('node_modules'));
+var cfg = require(tmp.join('/') + '/config/settings.json');
 var merge = require('merge-recursive');
 
 var settings = cfg.default;
