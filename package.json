@@ -1,18 +1,12 @@
 {
   "name": "env-settings",
   "description": "Get environment specific settings for your application",
-  "version": "0.2.4",
+  "version": "0.2.7",
   "maintainers": [
     {
       "name": "Daniele Brugnara",
       "email": "daniele@brugnara.me",
       "url": "brugnara.me"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/brugnara/env-settings"
     }
   ],
   "dependencies": {
@@ -34,9 +28,5 @@
   "bugs": {
     "url": "https://github.com/brugnara/env-settings/issues"
   },
-  "homepage": "https://github.com/brugnara/env-settings",
-  "_id": "env-settings@0.1.0",
-  "_shasum": "24d6f82192fdca14add35ac312d64edfb3a9c1b2",
-  "_from": "env-settings@",
-  "_resolved": "https://registry.npmjs.org/env-settings/-/env-settings-0.1.0.tgz"
+  "homepage": "https://github.com/brugnara/env-settings"
 }
