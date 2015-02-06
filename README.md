@@ -35,6 +35,8 @@ var settings = require('env-settings');
 
 console.log(settings.log.level);
 console.log(settings.log.test);
+
+console.log(settings.env, settings.ENV, settings.environment);
 ```
 
 that echoes

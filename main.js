@@ -1,7 +1,7 @@
 var currentFile = require.resolve('./');
 // extract main dir
 var arTmp = currentFile.split('/');
-tmp = arTmp.slice(0, arTmp.indexOf('node_modules'));
+var tmp = arTmp.slice(0, arTmp.indexOf('node_modules'));
 var cfg = require(tmp.join('/') + '/config/settings.json');
 var merge = require('merge-recursive');
 
@@ -14,5 +14,7 @@ try {
   // No env detected. Issuing a warning.
   console.error('Environment specific settings not found: %s', ENV);
 }
+
+settings.env = settings.environment = settings.ENV = ENV;
 
 module.exports = settings;
