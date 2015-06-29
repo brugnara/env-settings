@@ -1,7 +1,7 @@
 {
   "name": "env-settings",
   "description": "Get environment specific settings for your application",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "maintainers": [
     {
       "name": "Daniele Brugnara",
