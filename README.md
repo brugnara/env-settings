@@ -39,7 +39,15 @@ console.log(settings.log.test);
 console.log(settings.env, settings.ENV, settings.environment);
 ```
 
-that echoes
+Run the app with:
+
+```bash
+NODE_ENV=production node index.js
+# or
+NODE_ENV=test node index.js
+```
+
+that produces different outputs. With no params, it defaults to `development`.
 
 ```
 verbose
